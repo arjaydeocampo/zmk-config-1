@@ -11,9 +11,9 @@ manifest:
     path: config
 ---
 include:
-  - board: nice_nano_v1
+  - board: nice_nano
     shield: kyria_left
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: nice_nano_v1
+  - board: nice_nano
     shield: kyria_right
