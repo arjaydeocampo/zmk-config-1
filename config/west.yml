@@ -9,3 +9,11 @@ manifest:
       import: app/west.yml
   self:
     path: config
+---
+include:
+  - board: nice_nano_v1
+    shield: kyria_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nice_nano_v1
+    shield: kyria_right
